@@ -30,27 +30,9 @@ Ce script est conçu pour les serveurs utilisant le framework **ESX**.
 
 
 
-2. **Ajoutez l'item `repairkit` à OX Inventory** :  
+2. **Ajoutez l'item `repairkit` à OX Inventory** :
 
-Dans la configuration d'OX Inventory, ajoutez :  
-
-```lua
-
-['repairkit'] = {
-
-    label = 'Kit de réparation',
-
-    weight = 1000,
-
-    stack = false,
-
-    close = true,
-
-}
-
-```lua
-
--- Démarrer le script dans le server.cfg
+ -- Démarrer le script dans le server.cfg
 
 
 
@@ -71,3 +53,20 @@ Dans la configuration d'OX Inventory, ajoutez :
 -- Pour toute assistance ou question, contactez OwenDev.
 
 -- Discord: fantomasse_
+
+Dans la configuration d'OX Inventory, ajoutez :  
+
+
+```lua
+
+['repairkit'] = {
+
+    label = 'Kit de réparation',
+
+    weight = 1000,
+
+    stack = false,
+
+    close = true,
+
+}
